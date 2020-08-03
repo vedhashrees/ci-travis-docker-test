@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+script:
+  - docker build -t learnaboutdocker/ci_travis .
+  - docker images learnaboutdocker/ci_travis
