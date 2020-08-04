@@ -12,4 +12,3 @@ COPY . /usr/src/app
 
 EXPOSE 4000
 CMD [ "npm", "start"]
-git restore
